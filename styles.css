@@ -57,3 +57,14 @@ main p {
     width: 150px;
     margin-top: 20px;
 }
+
+/* Dark Theme */
+body.dark {
+    background-color: #333;
+    color: #fff;
+}
+
+body.dark .title h2 {
+    color: #8cb3db; /* Use a lighter blue for better contrast */
+}
+
