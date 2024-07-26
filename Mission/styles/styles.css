@@ -1,0 +1,60 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f9f9f9;
+}
+
+.content {
+    max-width: 600px;
+    padding: 20px;
+    margin: 20px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    text-align: center;
+}
+
+.title h1, .title h2 {
+    margin: 0;
+}
+
+.title h1 {
+    font-size: 32px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+}
+
+.title h2 {
+    font-size: 24px;
+    color: #006EB6;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+}
+
+main p {
+    text-align: left;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+.does-list {
+    text-align: left;
+    padding-left: 20px;
+    line-height: 1.5;
+}
+
+.does-list li {
+    margin-bottom: 10px;
+}
+
+.logo {
+    width: 150px;
+    margin-top: 20px;
+}
+
