@@ -5,14 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta property="og:title" content="Recipe Book">
     <meta property="og:type" content="website">
-    <meta property="og:description" content="A collection of delicious recipes.">
-    <meta property="og:image" content="images/recipe-book.png">
-    <meta property="og:url" content="https://yourwebsite.com">
+    <meta property="og:description" content="Find and enjoy a variety of delicious recipes.">
+    <meta property="og:image" content="images/recipe-book-preview.jpg">
+    <meta property="og:url" content="http://example.com">
     <meta name="twitter:card" content="summary_large_image">
-    <link rel="stylesheet" href="recipes.css">
-    <script type="module" src="recipes.mjs" defer></script>
-    <script src="main.js" defer></script>
     <title>Recipe Book</title>
+    <link rel="stylesheet" href="recipes.css">
 </head>
 <body>
     <header>
@@ -21,37 +19,30 @@
     </header>
 
     <main>
-        <section class="search-form">
+        <div class="search-form">
             <form>
-                <input type="text" placeholder="Search recipes..." aria-label="Search recipes">
+                <input type="text" placeholder="Search for recipes...">
                 <button type="submit">Search</button>
             </form>
-        </section>
+        </div>
 
         <section class="recipe-section">
-            <article class="recipe">
-                <img src="images/recipe-image.jpg" alt="Delicious Recipe">
-                <h2>Recipe Name</h2>
-                <p class="description">Recipe description goes here. This will be hidden on mobile screens.</p>
-                <span class="rating" role="img" aria-label="Rating: 4 out of 5 stars">
-                    <span aria-hidden="true" class="icon-star">⭐</span>
-                    <span aria-hidden="true" class="icon-star">⭐</span>
-                    <span aria-hidden="true" class="icon-star">⭐</span>
-                    <span aria-hidden="true" class="icon-star-empty">⭐</span>
-                    <span aria-hidden="true" class="icon-star-empty">☆</span>
-                </span>
-            </article>
+            <!-- Recipe will be dynamically inserted here -->
         </section>
     </main>
 
     <footer>
+        <p>&copy; 2024 Recipe Book</p>
         <div class="social">
-            <!-- Social media icons provided under CC from https://www.iconfinder.com/AlfredoCreates  -->
-            <a href="#"><img src="images/instagram_icon.svg" alt="Instagram icon"></a>
+           
+            <a href="#"><img src="instagram_icon.png" alt="Instagram icon"></a>
             <a href="#"><img src="images/youtube_icon.svg" alt="YouTube icon"></a>
             <a href="#"><img src="images/pinterest_icon.svg" alt="Pinterest icon"></a>
         </div>
         <a href="https://www.flaticon.com/free-icons/recipe" title="recipe icons">Recipe icons created by Freepik - Flaticon</a>
     </footer>
+
+    <script src="main.js" type="module"></script>
 </body>
 </html>
+
